@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1464792989 source:e:\code\atmacompiler\main.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<fstream>
+	<stack>
+

@@ -1,0 +1,41 @@
+prog zjh
+a,b:integer semi
+b:real semi
+l:array [100][100] of real semi
+proc sub 
+x1:integer semi
+begin
+x1:=40 semi
+end
+
+begin
+a:=10+20 semi
+b:=12 semi
+c:=(a*x1)+2 semi
+a:=2*(a/x1) semi
+
+if a then
+a:=a+c semi
+else
+a:=a*c semi
+endif
+
+while a-100 do
+a:=a+5 semi
+endwhile
+
+while b do
+if b then
+b:=b-1 semi
+endif
+endwhile
+
+if c then
+while a do
+a:=a-1 semi
+endwhile
+endif
+
+write(c) semi
+read(b) semi
+end $

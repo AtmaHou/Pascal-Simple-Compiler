@@ -1,0 +1,59 @@
+x1:=40
+T0:=10+20
+a:=T0
+b:=12
+T1:=a*x1
+T2:=T1+2
+c:=T2
+T3:=a/x1
+T4:=2*T3
+a:=T4
+
+if a goto tr0
+goto fal0
+tr0:
+T5:=a+c
+a:=T5
+goto next0
+ fal0:
+T6:=a*c
+a:=T6
+next0:
+
+L0:
+T7:=a-100
+if T7 goto w_tr0
+goto w_fal0
+w_tr0:
+T8:=a+5
+a:=T8
+goto L0
+w_fal0:
+
+L1:
+if b goto w_tr1
+goto w_fal1
+w_tr1:
+
+if b goto tr1
+goto fal1
+tr1:
+T9:=b-1
+b:=T9
+fal1:
+goto L1
+w_fal1:
+
+if c goto tr2
+goto fal2
+tr2:
+
+L2:
+if a goto w_tr2
+goto w_fal2
+w_tr2:
+T10:=a-1
+a:=T10
+goto L2
+w_fal2:
+fal2:
