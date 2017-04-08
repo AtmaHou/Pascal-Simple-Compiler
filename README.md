@@ -5,7 +5,7 @@ Pascal-Simple-Compiler
 实现了Pascal到汇编级的翻译 <br>
 可以作为学习时的参考，如需要文法等内容可联系我 <br>
 ## 本人联系方式：
-a@hit.edu.cn<br>
+v-yuthou@microsoft.com<br>
 ythou@ir.hit.edu.cn
 
 
