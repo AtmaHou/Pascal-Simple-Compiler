@@ -6,6 +6,6 @@ Pascal-Simple-Compiler
 可以作为学习时的参考，如需要文法等内容可联系我 <br>
 ## 本人联系方式：
 a@hit.edu.cn<br>
-hyt_hit@163.com
+ythou@ir.hit.edu.cn
 
 
